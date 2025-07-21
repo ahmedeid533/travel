@@ -13,7 +13,7 @@ const HeroSection = () => {
 			y: 0,
 			transition: { duration: 0.8, ease: "easeOut" },
 		},
-	};
+	} as const;
 
 	return (
 		<section className="relative h-screen w-full flex items-center justify-center overflow-hidden">

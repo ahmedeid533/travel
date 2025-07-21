@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
 							className="flex-shrink-0 w-80 mx-4 p-6 bg-gray-800 rounded-lg shadow-lg"
 						>
 							<p className="text-gray-300">
-								"{testimonial.text}"
+								&quot;{testimonial.text}&quot;
 							</p>
 							<p className="mt-4 font-bold text-right text-blue-400">
 								- {testimonial.name}
